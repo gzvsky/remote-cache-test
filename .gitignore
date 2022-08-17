@@ -1,0 +1,33 @@
+# Xcode
+.DS_Store
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+*.xccheckout
+
+#Fastlane
+/build
+report.xml
+
+
+
+
+#CocoaPods
+#Pods
+
+#Carthage
+Modules/WalletCore/Carthage/Checkouts
+Modules/WalletCore/Carthage/Build/*
+!Modules/WalletCore/Carthage/Build/iOS
+*.bcsymbolmap
+LocalPods/QWPopup/Pods/Local Podspecs
